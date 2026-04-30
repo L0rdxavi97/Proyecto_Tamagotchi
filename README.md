@@ -1,6 +1,6 @@
 # 🐾 Cuidador de Criaturas — Tamagotchi
 
-> Proyecto universitario desarrollado por **Javier Acedo Caballero**
+> Proyecto del Curso de Especialización en Inteligencia Artificial y Big Data desarrollado por **Javier Acedo Caballero**
 >
 > Un Tamagotchi moderno con Inteligencia Artificial: sistema experto, modelo de lenguaje local (LLM) y procesamiento del lenguaje natural (PLN).
 
