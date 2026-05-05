@@ -45,12 +45,10 @@ if __name__ == "__main__":
     from constantes import (C_BG, C_PANEL, C_BORDER, C_ACCENT, C_ACCENT2,
                             C_TEXT, C_DIM, C_GREEN, C_YELLOW, C_RED, C_INPUT_BG)
 
-    from sistema_experto import (SistemaCuidado, Criatura,
-                                 get_criatura, retirar_intenciones)
+    from sistema_experto import (SistemaCuidado, Criatura, retirar_intenciones)
     from hilos import (cargar_modelos, bucle_hambre,
                        bucle_aburrimiento, procesar_input_bg)
-    from render import (lerp_color, draw_rounded_rect,
-                        draw_creature, draw_creature_scaled,
+    from render import (lerp_color, draw_rounded_rect, draw_creature_scaled,
                         draw_bubble, pantalla_inicio)
 
     # ── Estado compartido entre hilos ────────────────────────────────

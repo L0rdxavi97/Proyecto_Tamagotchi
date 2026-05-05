@@ -24,10 +24,11 @@ INTENT_ALIMENTAR = {
     "alimentar","comer","curar","sanar","dar",
     "comida","alimento","medicina","pocion",
     "vida","restaurar","recuperar","regenerar",
+    "comete","come","dar"
 }
 INTENT_SALIR = {
     "salir","terminar","acabar","cerrar","detener",
-    "parar","exit","quit","fin","finalizar",
+    "parar","exit","quit","fin","finalizar","lol"
 }
 INTENT_HABLAR = {
     "hablar","conversar","charlar","preguntar","decir","hola","hey",
@@ -37,6 +38,7 @@ INTENT_JUGAR = {
     "jugar","juega","juego","entretenimiento","entretener","divertir","diversion",
     "actividad","animar","alegrar","interactuar","broma","chiste",
     "baile","bailar","cantar","cancion","reto","desafio",
+    "fumar","fuma","fumate"
 }
 
 # Mensajes de aburrimiento

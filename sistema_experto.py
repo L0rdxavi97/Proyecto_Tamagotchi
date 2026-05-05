@@ -9,7 +9,6 @@ Contiene:
 """
 
 import random
-import threading
 
 from experta import Fact, KnowledgeEngine, Rule, MATCH, TEST
 
