@@ -19,6 +19,7 @@ import math
 import multiprocessing as mp
 
 HAMBRE = 100
+DAMAGE = 1
 
 # Silenciar warnings de HuggingFace antes de cualquier import de transformers
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
@@ -127,7 +128,7 @@ if __name__ == "__main__":
     )
     engine.reset()
     engine.declare(Criatura(nombre=crt_name, hambre=HAMBRE,
-                            hambre_maxima=HAMBRE, damage=1))
+                            hambre_maxima=HAMBRE, damage=DAMAGE))
     with lock:
         estado["hambre"]     = HAMBRE
         estado["hambre_max"] = HAMBRE
