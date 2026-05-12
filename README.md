@@ -44,7 +44,7 @@ Proyecto_Tamagotchi/
 
 ### Requisitos previos
 
-- Python **3.10+**
+- Python **3.11**
 - pip
 
 ### 1. Clonar el repositorio
@@ -63,7 +63,7 @@ pip install pygame experta spacy transformers torch
 ### 3. Descargar el modelo de spaCy
 
 ```bash
-python -m spacy download es_core_news_sm
+py -m spacy download es_core_news_sm
 ```
 
 > ⚠️ El modelo LLM (Qwen) se descarga automáticamente desde HuggingFace la primera vez que se ejecuta. Requiere conexión a internet y varios GB de espacio en disco.
